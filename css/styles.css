@@ -1,0 +1,40 @@
+/*[class *= "Card"]{
+  border: 2px solid black;
+}*/
+/*font-family: 'Caveat', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'PT Sans Narrow', sans-serif;*/
+
+:root{
+  --fontmain:'Caveat', cursive;
+  --fontsecundary:'Kalam', cursive;
+}
+h2 {
+  font-family: var(--fontmain);
+}
+.row {
+  margin-bottom: 15px;
+  padding: 5px;
+  }
+.row > div {
+ border: 2px solid #000000;
+ background-color: #bbb;
+}
+
+.Card {
+border: 2px solid #000;
+/*background-color: #bbb;
+padding: 10;*/
+}
+ 
+h4{
+  /*border: 2px solid #000000;
+  text-align: right;*/
+}
+div.row{
+  margin: 10px;
+ 
+}
+/*.container-fluid{
+  overflow: hidden;
+}*/
